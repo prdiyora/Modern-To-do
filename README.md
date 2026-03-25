@@ -1,16 +1,159 @@
-# React + Vite
+# 🚀 Modern Todo App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautiful and responsive **Todo Application** built using **React.js** with powerful features like search, theme toggle, and local storage persistence.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* ✅ Add, Edit, Delete Todos
+* 🔍 Search Tasks in Real-Time
+* 🌙 Light & Dark Theme Toggle
+* 💾 LocalStorage (Data saved even after refresh)
+* 📊 Progress Tracking (Completed Tasks)
+* 📱 Fully Responsive (Mobile Friendly)
+* ⚡ Smooth UI & Modern Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Clean UI with Light & Dark Mode Support
+
+---
+
+## 🛠️ Tech Stack
+
+* ⚛️ React.js (Hooks)
+* 🎨 CSS (Custom + Variables for Theming)
+* 💾 LocalStorage API
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── components/
+│   ├── Header.jsx
+│   ├── Footer.jsx
+│   ├── TodoForm.jsx
+│   ├── TodoList.jsx
+│   └── TodoItem.jsx
+│
+│── App.js
+│── App.css
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/todo-app.git
+```
+
+### 2️⃣ Navigate to project
+
+```bash
+cd todo-app
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Run the app
+
+```bash
+npm start
+```
+
+👉 App will run on:
+
+```
+http://localhost:3000
+```
+
+---
+
+## 🌗 Theme System
+
+This app uses **CSS Variables** for theme switching:
+
+* Light Theme 🌞
+* Dark Theme 🌙
+
+```css
+--bg-main
+--card-bg
+--text-color
+--border-color
+--input-bg
+--accent
+```
+
+---
+
+## 📊 How It Works
+
+* Todos are stored in **React State**
+* Synced with **localStorage**
+* Search filters todos dynamically
+* Theme preference is saved automatically
+
+---
+
+## 💡 Key Learning
+
+* React Hooks (`useState`, `useEffect`)
+* Component-based architecture
+* State management
+* UI/UX design principles
+* Responsive design
+* Theme handling using CSS variables
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here later)
+
+---
+
+## 🔥 Future Improvements
+
+* 🔄 Drag & Drop Todos
+* 📅 Due Dates & Reminders
+* ☁️ Backend Integration (Node.js + MySQL)
+* 🔔 Notifications
+* 📊 Analytics Dashboard
+
+---
+
+## 🙌 Author
+
+**Priyank Diyora**
+
+* 💼 Aspiring Software Developer
+* 🚀 Passionate about MERN Stack
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+👉 Give it a ⭐ on GitHub
+👉 Share with others
+👉 Follow for more projects
+
+---
+
+## 📜 License
+
+This project is open-source and free to use.
